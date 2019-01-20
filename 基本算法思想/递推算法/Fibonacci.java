@@ -12,7 +12,7 @@ public class Fibonacci {
         int num = born(3, 1, 1);
         System.out.println("一年后兔子总只数为"+num+"只");
     }
-
+    //顺递推
     private static int born(int mon, int preNum, int newNum) {
         int num;
         if( mon<=12){
